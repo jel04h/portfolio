@@ -3,16 +3,37 @@ body {
   color: dimgray;
   background-color: antiquewhite;
   font-family: sans-serif;
+  margin: auto;
 }
 
 header {
   background-color: aquamarine;
   border: 2px solid #8AC007;
+  height: 80px;
+}
+
+header h1 {
+  background-color: cadetblue;
+  width: 45%;
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
   background-color: palevioletred;
   border: 2px solid #8AC007;
+  height: 50px;
+}
+
+footer p {
+  background-color: darkgray;
+  width: 40%;
+  display: inline;
+  float: left;  
+  margin: 0;
+  padding: 5px 15px 5px 15px;
 }
 
 nav ul {
@@ -21,6 +42,10 @@ nav ul {
   padding: 0;
   background-color: skyblue;
   padding: 5px 15px 5px 15px;
+  text-align: right;
+  width: 50%;
+  float: right;
+  display: inline;
 }
 
 nav li {
@@ -39,9 +64,9 @@ nav a:hover {
   }
 
 article {
-  width: 90%;
   background-color: aliceblue;
   padding: 5px 15px 5px 15px;
+  width: auto;
 }
 
 
