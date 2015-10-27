@@ -9,7 +9,7 @@ body {
 header {
   background-color: aquamarine;
   border: 2px solid #8AC007;
-  height: 80px;
+  height: 50px;
 }
 
 header h1 {
@@ -69,30 +69,59 @@ article {
   width: auto;
 }
 
+ol, ul {
+  list-style: none;
+}
 
+ol.photos {
+  background-color: papayawhip;
+  color: dimgray;
+  text-align: center;
+}
 
+ol.photos li {
+  width: 400px;
+  display: inline-block;
+  background-color: peachpuff;
+  padding: 0px;
+}
 
+ul.projects {
+  background-color: darkseagreen;
+  color: dimgray;
+}
 
+ul.projects li {
+  background-color: pink;
+  width: auto;
+  padding: 10px;
+}
 
+ul.projects p {
+  color: blue;
+}
 
+ul.projects img {
+  background-color: gray;
+  padding: 30px;
+}
 
+h2 {
+  color: darkred;
+  text-decoration: underline;
+  font-size: 1.5em;
+  background-color: blanchedalmond;
+}
 
+h3 {
+  color: darkcyan;
+  background-color: lavender;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+article p {
+  background-color: aquamarine;
+  width: 80%;
+}
 
 
 /* 
