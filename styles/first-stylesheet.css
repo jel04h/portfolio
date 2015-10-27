@@ -1,0 +1,84 @@
+body {
+  width: 90%;
+  color: dimgray;
+  background-color: antiquewhite;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: aquamarine;
+  border: 2px solid #8AC007;
+}
+
+footer {
+  background-color: palevioletred;
+  border: 2px solid #8AC007;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+  padding: 5px 15px 5px 15px;
+}
+
+nav li {
+  display: inline;
+  background-color: royalblue;
+  padding: 5px 15px 5px 15px;
+  font-size: 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aliceblue;
+  }
+
+article {
+  width: 90%;
+  background-color: aliceblue;
+  padding: 5px 15px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Assignment #3: 
+  Write some styling for your portfolio site
+    Include a link to the stylesheet in the head section of each of the html pages. You can add more content to these HTML pages.
+  
+  Use GIT to commit your work as you go.
+  Must have 50 lines of code
+  About using CSS properly, not design
+
+  Create a second brand for your repository called 'gh-pages'. Push your work up to your Github repository's master and gh-pages branches (they should both have all the same commits), and submit a link to the Github repo for the assignment.
+    I will view the pages via your personal gh-pages URL and expect everything to be functional (no broken images or links, etc). Refer to class 0's slides if you need a refresher on Git & Github, class 3's slides for how to work with branches, and this guide may help you with gh-pages (we're using "project pages"):  http://www.thinkful.com/learn/a-guide-to-using-github-pages
+*/
