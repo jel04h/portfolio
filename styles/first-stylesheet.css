@@ -101,9 +101,11 @@ ul.projects p {
   color: blue;
 }
 
-ul.projects img {
+img {
   background-color: gray;
-  padding: 30px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 h2 {
