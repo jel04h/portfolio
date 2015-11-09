@@ -1,47 +1,208 @@
+* {box-sizing: border-box;}
+
 body {
-  width: 90%;
-  color: dimgray;
-  background-color: antiquewhite;
-  font-family: sans-serif;
+  width: 80%;
+  background-color: #E9EEF3;
   margin: auto;
 }
 
-header {
-  background-color: aquamarine;
-  border: 2px solid #8AC007;
-  height: 50px;
-}
-
-header h1 {
-  background-color: cadetblue;
-  width: 45%;
-  display: inline;
-  float: left;
+h1 {
+  font-family: 'Tulpen One', cursive;
+  color: #333840;
   margin: 0;
   padding: 0;
 }
 
+h2, h3, h4, h5, h6, h7 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #333840;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p, nav {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: .75em;
+  color: #A6B9D1;
+}
+
+header {
+  padding: 1rem;
+}
+
+header h1 {
+  width: 40%;
+  float: left;
+  height: 5rem;
+}
+
+header nav {
+  float: right;
+  width: 40%;
+  height: 5rem;
+  text-align: right;
+}
+
+header nav ul li {
+  height: 5rem;
+  display: inline-block;
+  padding-top: 2.8rem;
+  padding-left: 2rem;
+  font-size: 130%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333840;
+}
+
+header nav a:hover {
+  color: #65717F;
+  background-color: white;
+}
+
+article {
+  background-color: white;
+  border-top: #A6B9D1 dashed .1rem;
+  border-bottom: #A6B9D1 dashed .1rem;
+  padding: 1rem;
+  clear: both;
+}
+
+article h1, h2, h3 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+article p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+article ul.mainpageul {
+  text-align: center;
+}
+
+article ul.mainpageul li {
+  background-color: #65717F;
+  color: #CBE2FF;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.3rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 1.5rem;
+}
+
+article ul.mainpageul li:hover {
+  background-color: white;
+  border: #65717F dashed .1rem;
+  color: #65717F;
+}
+
+article ul.mainpageul li p:hover {
+  color: #65717F;
+}
+
+article ul.home {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+article ul.home li {
+  background-color: #65717F;
+  color: #CBE2FF;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.3rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 1.5rem;
+}
+
+article ul.home li:hover{
+  background-color: white;
+  border: #A6B9D1 dashed .1rem;
+}
+
+article ul.home li img {
+  width: 100%;
+}
+
 footer {
-  background-color: palevioletred;
-  border: 2px solid #8AC007;
+  padding: 1.5rem;
+}
+
+footer ul {
+  text-align: center;
+  padding-bottom: .6rem;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
+
+/*
+
+header {
+  background-color: #CBE2FF;
+  height: 4.5rem;
+  margin-top: 2.5rem;
+}
+
+header h1 {
+  width: 45%;
+  display: inline;
+  float: left;
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 3.5rem;
+}
+
+footer {
+  background-color: #CBE2FF;
   height: 50px;
 }
 
 footer p {
-  background-color: darkgray;
+  color: #333840;
   width: 40%;
   display: inline;
   float: left;  
   margin: 0;
-  padding: 5px 15px 5px 15px;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: .75rem;
+}
+
+footer p nav ul li {
+  font-size: .75rem;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  background-color: skyblue;
-  padding: 5px 15px 5px 15px;
+  padding: 1rem;
   text-align: right;
   width: 50%;
   float: right;
@@ -50,17 +211,17 @@ nav ul {
 
 nav li {
   display: inline;
-  background-color: royalblue;
   padding: 5px 15px 5px 15px;
-  font-size: 1em;
 }
 
 nav a {
   text-decoration: none;
+  color: #333840;
 }
 
 nav a:hover {
-  color: aliceblue;
+  color: #65717F;
+  text-decoration: underline;
   }
 
 article {
@@ -94,7 +255,7 @@ ul.projects {
 ul.projects li {
   background-color: pink;
   width: auto;
-  padding: 10px;
+  padding: 1rem;
 }
 
 ul.projects p {
@@ -109,14 +270,11 @@ img {
 }
 
 h2 {
-  color: darkred;
   text-decoration: underline;
-  font-size: 1.5em;
   background-color: blanchedalmond;
 }
 
 h3 {
-  color: darkcyan;
   background-color: lavender;
 }
 
@@ -151,17 +309,4 @@ img.home:hover {
   width: 100%;
 }
 
-
-
-/* 
-Assignment #3: 
-  Write some styling for your portfolio site
-    Include a link to the stylesheet in the head section of each of the html pages. You can add more content to these HTML pages.
-  
-  Use GIT to commit your work as you go.
-  Must have 50 lines of code
-  About using CSS properly, not design
-
-  Create a second brand for your repository called 'gh-pages'. Push your work up to your Github repository's master and gh-pages branches (they should both have all the same commits), and submit a link to the Github repo for the assignment.
-    I will view the pages via your personal gh-pages URL and expect everything to be functional (no broken images or links, etc). Refer to class 0's slides if you need a refresher on Git & Github, class 3's slides for how to work with branches, and this guide may help you with gh-pages (we're using "project pages"):  http://www.thinkful.com/learn/a-guide-to-using-github-pages
 */
