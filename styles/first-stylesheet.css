@@ -265,6 +265,10 @@ article ol.photos li figure figcaption {
 
 /* About Me Page CSS */
 
+article.aboutme {
+  height: 50rem;
+}
+
 article.aboutme p.i {
   text-align: center;
 }
@@ -277,7 +281,7 @@ article.aboutme p {
 
 article.aboutme p img {
   margin-top: .7rem;
-  width: 50%;
+  height: 30rem;
   padding: 0rem 2rem 2rem 0rem;
   float: left;
 }
