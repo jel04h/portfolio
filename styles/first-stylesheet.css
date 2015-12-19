@@ -8,14 +8,14 @@ body {
 
 h1 {
   font-family: 'Tulpen One', cursive;
-  color: #333840;
+  color: #000;
   margin: 0;
   padding: 0;
 }
 
 h2, h3, h4, h5, h6, h7 {
   font-family: 'Noto Sans', sans-serif;
-  color: #333840;
+  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -30,17 +30,17 @@ h2 {
 
 p, nav, figcaption {
   font-family: 'Noto Sans', sans-serif;
-  font-size: .75em;
-  color: #A6B9D1;
+  font-size: 1em;
+  color: #000;
 }
 
 p {
-  line-height: 1rem;
+  line-height: 1.25rem;
 }
 
 a {
   text-decoration: none;
-  color: #A6B9D1;
+  color: darkblue;
 }
 
 a:hover {
@@ -54,14 +54,14 @@ header {
 }
 
 header h1 {
-  width: 40%;
+  width: 44%;
   float: left;
   height: 5rem;
 }
 
 header nav {
   float: right;
-  width: 40%;
+  width: 45%;
   height: 5rem;
   text-align: right;
 }
@@ -75,7 +75,7 @@ header nav ul li {
 }
 
 header nav a {
-  color: #333840;
+  color: #000;
 }
 
 header nav a:hover {
@@ -85,8 +85,8 @@ header nav a:hover {
 
 article {
   background-color: white;
-  border-top: #A6B9D1 dashed .1rem;
-  border-bottom: #A6B9D1 dashed .1rem;
+  border-top: #A6B9D1 .1rem;
+  border-bottom: #A6B9D1 .1rem;
   padding: 1rem;
   clear: both;
 }
@@ -107,8 +107,8 @@ article ul.mainpageul {
 }
 
 article ul.mainpageul li {
-  background-color: #65717F;
-  color: #CBE2FF;
+  background-color: FFF;
+  color: #000;
   width: 30%;
   display: inline-block;
   text-align: center;
@@ -116,16 +116,7 @@ article ul.mainpageul li {
   margin-left: .5rem;
   margin-right: .5rem;
   margin-top: 1.5rem;
-}
-
-article ul.mainpageul li:hover {
-  background-color: white;
-  border: #65717F dashed .1rem;
-  color: #65717F;
-}
-
-article ul.mainpageul li p:hover {
-  color: #65717F;
+  border: .1rem solid;
 }
 
 article ul.home {
@@ -134,8 +125,8 @@ article ul.home {
 }
 
 article ul.home li {
-  background-color: #65717F;
-  color: #CBE2FF;
+  background-color: whitesmoke;
+  color: #000;
   width: 30%;
   display: inline-block;
   text-align: center;
@@ -143,11 +134,7 @@ article ul.home li {
   margin-left: .5rem;
   margin-right: .5rem;
   margin-top: 1.5rem;
-}
-
-article ul.home li:hover{
-  background-color: white;
-  border: #A6B9D1 dashed .1rem;
+  border: .1rem solid;
 }
 
 article ul.home li img {
@@ -170,12 +157,12 @@ footer ul li {
 }
 
 footer ul li a {
-  color: #A6B9D1;
+  color: #000;
   font-size: 110%;
 }
 
 footer ul li a:hover {
-  color: #65717F;
+  color: #000;
   background-color: white;
 }
 
@@ -191,8 +178,8 @@ article ul.projects {
 }
 
 article ul.projects li {
-  background-color: #65717F;
-  color: #CBE2FF;
+  background-color: whitesmoke;
+  color: #000;
   width: 48%;
   display: inline-block;
   text-align: center;
@@ -200,16 +187,7 @@ article ul.projects li {
   margin-left: .5rem;
   margin-right: .5rem;
   margin-top: 1.5rem;
-}
-
-article ul.projects li:hover {
-  background-color: white;
-  color: #65717F;
-  border: #65717F dashed .1rem;
-}
-
-article ul.projects li img:hover {
-  border: #CBE2FF solid .5rem;
+  border: .1rem solid;
 }
 
 /* Photos Page CSS */
@@ -240,13 +218,13 @@ article ol.photos img {
 article ol.photos li {
   width: 46%;
   display: inline-block;
-  background-color: #CBE2FF;
+  background-color: darkgray;
   margin: 1rem 1rem 3rem 1rem;
 }
 
 article ol.photos li figure {
   background-color: #65717F;
-  color: #CBE2FF;
+  color: #fff;
   width: 90%;
   display: inline-block;
   text-align: center;
